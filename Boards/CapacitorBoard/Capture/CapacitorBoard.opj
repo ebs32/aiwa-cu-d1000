@@ -61,9 +61,9 @@
     ("Allegro Netlist Output Board File" "..\pcb\capacitorboard.brd")
     (Board_sim_option "VHDL_flow"))
   (Folder "Layout"
-    (File "..\pcb\capacitorboard.brd"
+    (File "..\PCB\CapacitorBoard.brd"
       (Type "Board File")
-      (OutputBoard "..\pcb\capacitorboard.brd")
+      (OutputBoard "..\PCB\CapacitorBoard.brd")
       (NetListPath "..\allegro\allegro")
       (ActiveBoard "1")))
   (Folder "Logs")
@@ -89,8 +89,8 @@
       (Path "Design Resources" "Library"
          "C:\Users\Edu\Documents\Projects\aiwa-hifi\Boards\Libraries\Connectors.OLB")
       (Path "Layout")
-      (Select "Design Resources" ".\capacitorboard.dsn" "Design Cache"
-         "TitleBlock0"))
+      (Path "PSpice Resources")
+      (Select "Layout" "..\PCB\CapacitorBoard.brd"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
