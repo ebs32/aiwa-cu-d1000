@@ -1,0 +1,110 @@
+(ExpressProject "CapacitorBoard"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "22.1 S008 (4165805)  [1/15/2024]-[07/27/25]")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File
+         "C:\Users\Edu\Documents\Projects\aiwa-hifi\Boards\Libraries\Passive.OLB"
+        (Type "Schematic Library"))
+      (File
+         "C:\Users\Edu\Documents\Projects\aiwa-hifi\Boards\Libraries\Connectors.OLB"
+        (Type "Schematic Library")))
+    ("Allegro Netlist Directory" "..\allegro\allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Folder "Layout")
+    (Folder "Referenced Projects")
+    (Folder "PSpice Resources"
+      (Folder "Simulation Profiles")
+      (Folder "Model Libraries"
+        (Sort User))
+      (Folder "Stimulus Files"
+        (Sort User))
+      (Folder "Include Files"
+        (Sort User)))
+    (MPSSessionName "Edu")
+    (GlobalState
+      (FileView
+        (Path "Design Resources")
+        (Path "Layout")
+        (Path "Outputs")
+        (Path "PSpice Resources")
+        (Path "Logs"))
+      (HierarchyView)
+      (Doc
+        (Type "COrCapturePMDoc")
+        (Frame
+          (Placement "44 0 1 -1 -1 -1 -1 0 228 0 755"))
+        (Tab 0)))
+    (File ".\capacitorboard.dsn"
+      (Type "Schematic Design"))
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "0")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (ANNOTATE_PreserveDesignator "FALSE")
+    (ANNOTATE_PreserveUserEdits "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80")
+    ("Allegro Netlist Output Board File" "..\pcb\capacitorboard.brd")
+    (Board_sim_option "VHDL_flow"))
+  (Folder "Layout"
+    (File "..\pcb\capacitorboard.brd"
+      (Type "Board File")
+      (OutputBoard "..\pcb\capacitorboard.brd")
+      (NetListPath "..\allegro\allegro")
+      (ActiveBoard "1")))
+  (Folder "Logs")
+  (MPSSessionName "Edu")
+  (PartMRUSelector)
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\capacitorboard.dsn")
+      (Path "Design Resources" ".\capacitorboard.dsn" "SCHEMATIC1")
+      (Path "Design Resources" ".\capacitorboard.dsn" "Design Cache")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "C:\Users\Edu\Documents\Projects\aiwa-hifi\Boards\Libraries\Passive.OLB")
+      (Path "Design Resources" "Library"
+         "C:\Users\Edu\Documents\Projects\aiwa-hifi\Boards\Libraries\Connectors.OLB")
+      (Path "Layout")
+      (Select "Design Resources" ".\capacitorboard.dsn" "Design Cache"
+         "TitleBlock0"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 755"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1674 24 773")
+        (Scroll "0 0")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\EDU\DOCUMENTS\PROJECTS\AIWA-HIFI\BOARDS\CAPACITORBOARD\CAPTURE\CAPACITORBOARD.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))

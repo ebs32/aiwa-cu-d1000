@@ -1,0 +1,10 @@
+*.jrl
+*.jrl,*
+*.txt
+*.txt,*
+*.log
+*.rpt
+*.rpt,*
+master.tag
+*.dbk
+**/Capture/**/*.png
