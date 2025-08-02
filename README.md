@@ -2,33 +2,7 @@
 
 A repository where I track all the work I do for servicing my AIWA CU-D1000 HiFi System.
 
-## Repository Layout
-
-The following is a summary of the directory layout used in this repository.
-
-```
-/
-├── Boards/                  # All PCB-related hardware modules
-│   ├── SomeBoard/           # A specific PCB module
-│   │   ├── Capture/         # OrCAD Capture schematics (.dsn, .sch, .opj)
-│   │   └── PCB/             # Allegro layout files (.brd)
-│   ├── Libraries/           # OrCAD Capture schematic libraries (.olb, .lib)
-│   └── Symbols/             # Allegro PCB symbols (.psm, .pad, etc.), padstacks, and STEP models
-├── Designs/                 # Mechanical design files (e.g., Fusion 360)
-├── Docs/                    # Reference documents, specs, notes, datasheets
-├── Media/                   # Renders, images, screenshots, and visual content
-├── PDFs/                    # Printable outputs for all boards:
-│   │                        # - Assembly drawings
-│   |                        # - Masks
-│   │                        # - Schematics
-│   │                        # - Drill charts
-│   │                        # - BOMs
-└── README.md                # Project overview and directory documentation
-```
-
-### Note
-
-When opening schematics in OrCAD Capture, you may need to update the library paths, as Capture stores absolute paths for libraries, which can cause issues when the project is moved or cloned.
+**Note** When opening schematics in OrCAD Capture, you may need to update the library paths, as Capture stores absolute paths for libraries, which can cause issues when the project is moved or cloned.
 
 ## MX-D10 Amplifier
 
