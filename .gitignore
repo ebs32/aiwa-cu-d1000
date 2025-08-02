@@ -3,8 +3,14 @@
 *.txt
 *.txt,*
 *.log
+*.log,*
 *.rpt
 *.rpt,*
-master.tag
 *.dbk
+*.lck
+master.tag
 **/Capture/**/*.png
+**/signoise.run/**
+
+!art_param.txt
+!nc_param.txt
